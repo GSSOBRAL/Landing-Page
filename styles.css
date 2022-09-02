@@ -2,9 +2,43 @@ body{
     font-family: Roboto, sans-serif;
     font-weight: 400;
     background-color: #F9FAF8;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
 }
 
 img{
     width: 300px;
     height: auto;
+}
+
+#navbar{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 300px;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar li{
+    margin-left: 24px;
+}
+
+#navbar h3{
+    font-size: 24px;
+}
+
+#navbar h3, #navbar a{
+    color: #F9FAF8;
 }
