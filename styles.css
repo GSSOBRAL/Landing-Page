@@ -78,3 +78,39 @@ img{
     color: #F9FAF8;
     width: 400px;
 }
+
+.info-container{
+    padding-bottom: 100px;
+}
+
+.info-container h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 50px 0;
+}
+
+.images{
+    display: flex;
+    padding: 0 300px;
+    justify-content: space-around;
+}
+
+.image-and-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.image-and-description div{
+    width:150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+}
+
+.image-and-description p{
+    text-align: center;
+}
