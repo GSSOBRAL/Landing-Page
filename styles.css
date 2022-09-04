@@ -168,3 +168,15 @@ img{
     font-size: 18px;
     padding: 6px 20px;
 }
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer p{
+    color: #F9FAF8;
+}
