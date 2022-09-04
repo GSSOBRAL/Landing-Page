@@ -3,6 +3,8 @@ body{
     font-weight: 400;
     background-color: #F9FAF8;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 a{
@@ -74,7 +76,7 @@ img{
     padding: 6px 20px;
 }
 
-.left-content{
+.top-container .left-content{
     color: #F9FAF8;
     width: 400px;
 }
@@ -134,4 +136,35 @@ img{
     font-size: 24px;
     font-weight: 900;
     align-self: flex-end;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 300px;
+    padding: 40px 150px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.call-to-action p{
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.call-to-action .header{
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.call-to-action button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 6px 20px;
 }
